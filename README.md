@@ -8,11 +8,11 @@ This repository features exploratory data analysis of these addresses to date an
 
 ### Addresses by Year
 
-!['fig1'](assets\year.png)
+!['fig1'](assets/year.png)
 
 ### Top 100 Most Popular Terms
 
-!['fig2'](assets\100.png)
+!['fig2'](assets/100.png)
 
 # The Model
 
@@ -22,7 +22,7 @@ The model was underlined by the following assumptions:
 
 The result of the previous assumptions is that whilst the individual political identity of a President may have some effect on the vocabulary used, each address should imply the political affiliation of a President with better than random accuracy.
 
-!['diagram'](assets\diagram.png)
+!['diagram'](assets/diagram.png)
 
 The goal of the model was to produce an interpretable set of coefficients corresponding to terms used in speeches which had either strong or weak, Democratic or Republican affiliation.
 
@@ -41,11 +41,11 @@ Out of the 21<sup>st</sup> Century Presidents, Clinton's speech in 2000 was clas
 
 ### All Terms
 
-!['fig3'](assets\all_coef.png)
+!['fig3'](assets/all_coef.png)
 
 ### Nouns
 
-!['fig4'](assets\noun_coef.png)
+!['fig4'](assets/noun_coef.png)
 
 The significant presence of militaristic terms such as "threats", "assault" and "turmoil" is an interesting feature of the Democratic vocabulary. If we look at major conflicts of the 20<sup>th</sup> Century this makes contextual sense; during the American involvement in both World Wars aswell as the Korean War, a Democrat was in office throughout. The Cold War and Vietnam War which both spanned several decades had both parties in office but Democratic Presidents were in office during hotspots such as the Berlin Blockade (Truman), Cuban Missile Crisis (Kennedy) and Tet Offensive (Johnson).
 
@@ -53,11 +53,11 @@ Whilst it is certainly true that current events may shape political identity, it
 
 This offers an update to our causal diagram.
 
-!['diagram_update'](assets\diagram_update.png)
+!['diagram_update'](assets/diagram_update.png)
 
 ### Adjectives
 
-!['fig5'](assets\adj_coef.png)
+!['fig5'](assets/adj_coef.png)
 
 The Republican adjectives such as "reliable", "applicable" and "noticeable" could suggest that concept of practicality is an important part of Republican identity. The adjectives of "oppressive", "prohibitive" and "expensive" alluding to the Republican aversion to both government regulation and government spending.
 
@@ -78,7 +78,7 @@ If all these speeches were grouped together, Bush  (a Republican) would be class
 
 ### All Terms
 
-!['fig6'](assets\all_bush.png)
+!['fig6'](/all_bush.png)
 
 The biggest contribution was the noun tag which was overwhelmingly Democratic. While adjectives made the second largest contribution and were majority Republican, net Democratic contributions in both verbs and adverbs ensured that Bush was classified as a Democrat. 
 
