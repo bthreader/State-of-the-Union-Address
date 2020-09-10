@@ -78,7 +78,7 @@ If all these speeches were grouped together, Bush  (a Republican) would be class
 
 ### All Terms
 
-!['fig6'](/all_bush.png)
+!['fig6'](assets/all_bush.png)
 
 The biggest contribution was the noun tag which was overwhelmingly Democratic. While adjectives made the second largest contribution and were majority Republican, net Democratic contributions in both verbs and adverbs ensured that Bush was classified as a Democrat. 
 
