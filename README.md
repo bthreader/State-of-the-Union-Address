@@ -4,6 +4,8 @@ The State of the Union address is a speech delivered annually by the President o
 
 This repository features exploratory data analysis of these addresses to date and the creation of a model to predict the political affiliation of 21<sup>st</sup> Century speeches using parameters estimated from 20<sup>th</sup> Century speeches.
 
+The code for this project can be found within sotu.ipynb, to render this file in full please use [this link](https://nbviewer.jupyter.org/github/bthreadz/State-of-the-Union-Address/blob/master/sotu.ipynb).
+
 # Exploratory Analysis Highlights
 
 ### Addresses by Year
