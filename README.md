@@ -28,9 +28,9 @@ The result of the previous assumptions is that whilst the individual political i
 
 The goal of the model was to produce an interpretable set of coefficients corresponding to terms used in speeches which had either strong or weak, Democratic or Republican affiliation.
 
-The model used was a logistic regression with L1 regularization controlled by the hyper-parameter C. In deciding this hyper-parameter there was a tradeoff between model performance (accuracy score) and interpretability (number of non-zero coefficents). After performing 5-fold cross validation on the training set, the value of 10 was used as it provided a suitable middle ground. 
+The model used was a logistic regression with L1 regularization controlled by the hyper-parameter C. In deciding this hyper-parameter there was a trade-off between model performance (accuracy score) and interpretability (number of non-zero coefficients). After performing 5-fold cross validation on the training set, the value of 10 was used as it provided a suitable middle ground. 
 
-Before fitting the model, feature-wise max absolute scaling was performed to ensure that coefficients reflected feature importance rather than feature scale and also that the L1 regularization didn't punish coefficients simply because their underlying feature scale was comparitively low.
+Before fitting the model, feature-wise max absolute scaling was performed to ensure that coefficients reflected feature importance rather than feature scale and also that the L1 regularization didn't punish coefficients simply because their underlying feature scale was comparatively low.
 
 # The Results
 
@@ -86,4 +86,4 @@ The biggest contribution was the noun tag which was overwhelmingly Democratic. W
 
 Notable actions of George W. Bush were the commencement of the "War on Terror" following the September 11<sup>th</sup> attacks in 2001 aswell as the invasion of Iraq in 2003. The militaristic context of Bush's addresses led to him using Democratic nouns such as "threats", "weapons", "assault" and "fight", aswell as the adjective "bombs", adverb "deadly" and particle "attack".
 
-The noun "camps" is an interesting term. It appeared in 20<sup>th</sup> Century Democratic speeches in a military context (Wilson 1914 & 1917, Roosevelt 1939), a foriegn refugee context (Truman 1948, Carter 1981) and a local context (Clinton 1993 & 1994). Bush used the term to refer to terrorist training camps (2002 & 2003) and also the Nazi concentration camps of World War Two in the context of justifying American intervention in the Middle East in his 2006 address.
+The noun "camps" is an interesting term. It appeared in 20<sup>th</sup> Century Democratic speeches in a military context (Wilson 1914 & 1917, Roosevelt 1939), a foreign refugee context (Truman 1948, Carter 1981) and a local context (Clinton 1993 & 1994). Bush used the term to refer to terrorist training camps (2002 & 2003) and also the Nazi concentration camps of World War Two in the context of justifying American intervention in the Middle East in his 2006 address.
